@@ -13,11 +13,15 @@ FEATURE ROADMAP
 ---------------
 STAGE 0 - Barebones Express-based server for driving project
 -- May use base example from Unit 2 of course
+
 STAGE 1 - Implementation of simple scraper for Battle.net data
 -- Likely leveraging node-scrapy - URL's at Battle.net are well-formed and CSS is standard among profile pages
+
 STAGE 1.5 - CRITICAL - unit tests for known good profile information, in Chai/Mocha. Will likely leverage [my own](https://playoverwatch.com/en-us/career/psn/Yauntras) )
+
 STAGE 2 - Support for PSN, XBox, and Battle.net profiles
 -- It's possible a player may be PSN- or XBOX-only, or have divergent accounts (i.e. mine)
+
 STAGE 3 - Handlebars(?)-bsed simple webpage displaying the relevant product information
 
 Nice-to-have:
