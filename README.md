@@ -1,4 +1,5 @@
 "FIRE IN THE HOLE"
+--------------------
 In completion of Thinkful's Node.js proficiency course
 
 DESCRIPTION
