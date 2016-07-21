@@ -1,0 +1,24 @@
+{
+  "name": "Thinkful-Final",
+  "version": "0.0.0",
+  "description": "An in-progress project for submission as part of Thinkful's Node.js course.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chistery/Thinkful-Final.git"
+  },
+  "keywords": [
+    "nodejs",
+    "thinkful",
+    "Tenhouse"
+  ],
+  "author": "Adam Tenhouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chistery/Thinkful-Final/issues"
+  },
+  "homepage": "https://github.com/chistery/Thinkful-Final"
+}
