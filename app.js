@@ -29,11 +29,10 @@ app.get('/', urlencodedParser, function(req, res) {
     });
 });
 
-app.post('/', urlencodedParser, function(req, res) {
+app.post('/submit', urlencodedParser, function(req, res) {
     console.log(req.body);
     var realBody = outsideCall(req.body);
     console.log(realBody);
-    res.send(JSON.stringify(realBody));
 });
 
 var listenPort = process.env.PORT || 3000;

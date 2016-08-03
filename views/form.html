@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <script src="../scripts/ajax_index.js"></script>
     <style>
     body {background-color: grey;}
     h1 {color: #000;}
@@ -10,17 +11,17 @@
   <body>
     <span><h1>User's battle-tag ("#" should be replaced with '-')</h1></span>
     <form method="post">
-      <input type="text" name="battletag"></textarea>
+      <input type="text" id="battletagInput"></textarea>
       <br />
       <!-- Platform -->
-      <select name="platform">
+      <select id="platformInput">
         <option value="pc">PC</option>
         <option value="psn">PSN</option>
         <option value="xbl">XBox Live</option>
       </select>
       <br />
       <!-- Region -->
-      <select class="parameter required" name="region">
+      <select class="parameter required" id="regionInput">
         <option value="cn">China</option>
         <option value="eu">Europe</option>
         <option value="global">Global</option>
@@ -28,7 +29,7 @@
         <option value="us">United states</option>
       </select>
       <br/>
-      <input type="submit"/>
+      <button onclick="sendData('/submit')">SUBMIT FORM</button>
     </form>
   </body>
 </html>
