@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 app.use(express.static('public'));
 
-var def_port = process.env.PORT;
+var def_port = process.env.PORT || 3000;
 
 console.log("Environmental port is " + def_port);
 
