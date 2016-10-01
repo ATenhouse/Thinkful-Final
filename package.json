@@ -17,7 +17,7 @@
     "url": "https://github.com/chistery/Thinkful-Final/issues"
   },
   "homepage": "https://github.com/chistery/Thinkful-Final#readme",
-  "dependencies": {
+  "devDependencies": {
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
     "express": "^4.14.0",
