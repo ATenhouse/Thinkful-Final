@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: QO4YNUY836YEPcbMXvqiLOtDKGGv+fqtWbzo+JOqkLeKcgDpldTaacpNPk9qeRkoc5xwmgyEyXj1ra4x0gC5MDC23gIjdeutrR0XWPVi5HD5xYw/s0gYqGeKotn4UERQB6USXyqG5jq49QPnp7BmckzfPq92KEA1PGbtqeF+0f4RArsU/wjoMqhyerNrVrGMntildr6kQg47qvghv7NDPUQ/6qVRnPHTmf24WVjsw7Cr+wM6RhA/ncjn8YZyrrnLOuCeaXHXPcUXx0B5FQP2gY0qsX+VhRoE9g/Xf1y/i0rz2F49eu57afEQczO9XOTshwVaRZA9BoYvT8ANjYzLwjDiHFyJOfbO/KJuLRIJA07pLy4L2NfVFYkSgfIFRx1yAcHnOVnQ6Fm48kWpmHAciaXNzdaDLiNAC2cniDGmKFoTjBD9I4sECiIyPGDpRQ9tSBS3IPRPvl5xRCz5mQRa1qL+eGxc9p3LGuTm/jkpUPwSknNhgXuTnQKlqPPENFZL3gXPZddyyPHCgP8Q6gfsywHL+RI//fcy2qJgxVH2TxT5Fs7S+Jh+U433bq5YMnoUzMmxunN443AwLBEvMoF9tbJf7YGdbR+DDW+R5SfJE/gi7vpyi9HuLskw8qFejR8V3U6rjGdOf6U2WaJey+I36PI3zTJshtXhzyQqaIV5E2Q=
+  app: tenhouse-thinkful-final
+  on:
+    repo: chistery/Thinkful-Final
