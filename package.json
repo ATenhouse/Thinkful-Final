@@ -1,0 +1,20 @@
+{
+  "name": "thinkful-final",
+  "version": "1.0.0",
+  "description": "Final project for the Thinkful Node.js course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chistery/Thinkful-Final.git"
+  },
+  "author": "Adam Tenhosue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chistery/Thinkful-Final/issues"
+  },
+  "homepage": "https://github.com/chistery/Thinkful-Final#readme"
+}
