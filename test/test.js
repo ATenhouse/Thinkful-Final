@@ -12,9 +12,9 @@ describe('Overlook App Test Suite', function() {
         chai.request(app)
             .get('/')
             .end(function(err, res) {
-                should.equal(err, null)
-                res.should.have.status(200)
-                done()
-            })
+                should.equal(err, null);
+                res.should.have.status(200);
+                done();
+            });
     })
 });
