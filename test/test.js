@@ -17,4 +17,22 @@ describe('Overlook App Test Suite', function() {
                 done();
             });
     })
+    it('Should find a basic heartbeat for DETAIL', function(done) {
+        chai.request(app)
+            .get('/detail')
+            .end(function(err, res) {
+                should.equal(err, null);
+                res.should.have.status(200);
+                done();
+            });
+    })
+    it('Should find a basic heartbeat for LOGIN', function(done) {
+        chai.request(app)
+            .get('/login')
+            .end(function(err, res) {
+                should.equal(err, null);
+                res.should.have.status(200);
+                done();
+            });
+    })
 });
